@@ -3,7 +3,7 @@
 //  watch-lib-tester-2 WatchKit Extension
 //
 //  Created by Nathaniel Jacobs on 10/29/19.
-//  Copyright © 2019 Nathaniel Jacobs. All rights reserved.
+//  Copyright © 2019 Medidata Solutions. All rights reserved.
 //
 
 import WatchKit
