@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B588DC12368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B588DC72368C08C00DB2915 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DC52368C08C00DB2915 /* Interface.storyboard */; };
+		4B588DC92368C08D00DB2915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DC82368C08D00DB2915 /* Assets.xcassets */; };
+		4B588DD02368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B588DCF2368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B588DD52368C08E00DB2915 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DD42368C08E00DB2915 /* InterfaceController.swift */; };
+		4B588DD72368C08E00DB2915 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DD62368C08E00DB2915 /* ExtensionDelegate.swift */; };
+		4B588DD92368C08E00DB2915 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DD82368C08E00DB2915 /* NotificationController.swift */; };
+		4B588DDB2368C08E00DB2915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DDA2368C08E00DB2915 /* Assets.xcassets */; };
+		4B588E402368C1A200DB2915 /* AWSFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEB2368C19C00DB2915 /* AWSFMDatabase.m */; };
+		4B588E412368C1A200DB2915 /* AWSDDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEC2368C19C00DB2915 /* AWSDDASLLogger.m */; };
+		4B588E422368C1A200DB2915 /* AWSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DED2368C19C00DB2915 /* AWSCancellationToken.m */; };
+		4B588E432368C1A200DB2915 /* AWSS3Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEE2368C19C00DB2915 /* AWSS3Resources.m */; };
+		4B588E442368C1A200DB2915 /* NSError+AWSMTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEF2368C19C00DB2915 /* NSError+AWSMTLModelException.m */; };
+		4B588E452368C1A200DB2915 /* AWSSynchronizedMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF02368C19C00DB2915 /* AWSSynchronizedMutableDictionary.m */; };
+		4B588E462368C1A200DB2915 /* AWSS3TransferUtility+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF12368C19C00DB2915 /* AWSS3TransferUtility+Validation.m */; };
+		4B588E472368C1A200DB2915 /* AWSS3PreSignedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF22368C19C00DB2915 /* AWSS3PreSignedURL.m */; };
+		4B588E482368C1A200DB2915 /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF32368C19C00DB2915 /* NSDictionary+AWSMTLManipulationAdditions.m */; };
+		4B588E492368C1A200DB2915 /* AWSMTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF42368C19C00DB2915 /* AWSMTLReflection.m */; };
+		4B588E4A2368C1A200DB2915 /* AWSDDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF52368C19C00DB2915 /* AWSDDFileLogger.m */; };
+		4B588E4B2368C1A200DB2915 /* AWSS3TransferUtility+HeaderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF62368C19C00DB2915 /* AWSS3TransferUtility+HeaderHelper.m */; };
+		4B588E4C2368C1A200DB2915 /* AWSTMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF72368C19C00DB2915 /* AWSTMDiskCache.m */; };
+		4B588E4D2368C1A200DB2915 /* AWSCognitoIdentityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF92368C19C00DB2915 /* AWSCognitoIdentityModel.m */; };
+		4B588E4E2368C1A200DB2915 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DFA2368C19C00DB2915 /* README.md */; };
+		4B588E4F2368C1A200DB2915 /* AWSSTSResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFB2368C19D00DB2915 /* AWSSTSResources.m */; };
+		4B588E502368C1A200DB2915 /* AWSURLRequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFC2368C19D00DB2915 /* AWSURLRequestRetryHandler.m */; };
+		4B588E512368C1A200DB2915 /* AWSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFD2368C19D00DB2915 /* AWSInfo.m */; };
+		4B588E522368C1A200DB2915 /* AWSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFE2368C19D00DB2915 /* AWSCancellationTokenRegistration.m */; };
+		4B588E532368C1A200DB2915 /* AWSSTSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFF2368C19D00DB2915 /* AWSSTSModel.m */; };
+		4B588E542368C1A200DB2915 /* AWSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E002368C19D00DB2915 /* AWSNetworking.m */; };
+		4B588E552368C1A200DB2915 /* AWSS3TransferUtilityDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E012368C19D00DB2915 /* AWSS3TransferUtilityDatabaseHelper.m */; };
+		4B588E562368C1A200DB2915 /* AWSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E022368C19D00DB2915 /* AWSXMLDictionary.m */; };
+		4B588E572368C1A200DB2915 /* AWSDDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E032368C19D00DB2915 /* AWSDDTTYLogger.m */; };
+		4B588E582368C1A200DB2915 /* AWSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E042368C19D00DB2915 /* AWSCategory.m */; };
+		4B588E592368C1A200DB2915 /* AWSDDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E052368C19D00DB2915 /* AWSDDAbstractDatabaseLogger.m */; };
+		4B588E5A2368C1A200DB2915 /* AWSS3RequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E062368C19D00DB2915 /* AWSS3RequestRetryHandler.m */; };
+		4B588E5B2368C1A200DB2915 /* AWSMTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E072368C19D00DB2915 /* AWSMTLModel.m */; };
+		4B588E5C2368C1A200DB2915 /* AWSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E082368C19D00DB2915 /* AWSExecutor.m */; };
+		4B588E5D2368C1A200DB2915 /* AWSS3TransferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E092368C19D00DB2915 /* AWSS3TransferManager.m */; };
+		4B588E5E2368C1A200DB2915 /* AWSFMDB+AWSHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0A2368C19D00DB2915 /* AWSFMDB+AWSHelpers.m */; };
+		4B588E5F2368C1A200DB2915 /* AWSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0B2368C19E00DB2915 /* AWSCancellationTokenSource.m */; };
+		4B588E602368C1A200DB2915 /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0C2368C19E00DB2915 /* NSValueTransformer+AWSMTLInversionAdditions.m */; };
+		4B588E612368C1A200DB2915 /* AWSGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0D2368C19E00DB2915 /* AWSGZIP.m */; };
+		4B588E622368C1A200DB2915 /* AWSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0E2368C19E00DB2915 /* AWSService.m */; };
+		4B588E632368C1A200DB2915 /* AWSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0F2368C19E00DB2915 /* AWSTask.m */; };
+		4B588E642368C1A200DB2915 /* AWSUICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E102368C19E00DB2915 /* AWSUICKeyChainStore.m */; };
+		4B588E652368C1A200DB2915 /* MedistranoStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E112368C19E00DB2915 /* MedistranoStage.swift */; };
+		4B588E662368C1A200DB2915 /* NSArray+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E122368C19E00DB2915 /* NSArray+AWSMTLManipulationAdditions.m */; };
+		4B588E672368C1A200DB2915 /* AWSCognitoIdentityResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E132368C19E00DB2915 /* AWSCognitoIdentityResources.m */; };
+		4B588E682368C1A200DB2915 /* AWSMTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E142368C19E00DB2915 /* AWSMTLJSONAdapter.m */; };
+		4B588E692368C1A200DB2915 /* NSObject+AWSMTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E152368C19F00DB2915 /* NSObject+AWSMTLComparisonAdditions.m */; };
+		4B588E6A2368C1A200DB2915 /* AWSMTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E162368C19F00DB2915 /* AWSMTLModel+NSCoding.m */; };
+		4B588E6B2368C1A200DB2915 /* AWSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E172368C19F00DB2915 /* AWSBolts.m */; };
+		4B588E6C2368C1A200DB2915 /* AWSS3Serializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E182368C19F00DB2915 /* AWSS3Serializer.m */; };
+		4B588E6D2368C1A200DB2915 /* EproEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E192368C19F00DB2915 /* EproEndpoint.swift */; };
+		4B588E6E2368C1A200DB2915 /* AWSSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1A2368C19F00DB2915 /* AWSSerialization.m */; };
+		4B588E6F2368C1A200DB2915 /* AWSCognitoIdentityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1B2368C19F00DB2915 /* AWSCognitoIdentityService.m */; };
+		4B588E702368C1A200DB2915 /* AWSS3TransferUtilityTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1C2368C19F00DB2915 /* AWSS3TransferUtilityTasks.m */; };
+		4B588E712368C1A200DB2915 /* AWSCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1D2368C19F00DB2915 /* AWSCredentialsProvider.m */; };
+		4B588E722368C1A200DB2915 /* AWSSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1E2368C19F00DB2915 /* AWSSignature.m */; };
+		4B588E732368C1A200DB2915 /* AWSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1F2368C1A000DB2915 /* AWSTaskCompletionSource.m */; };
+		4B588E742368C1A200DB2915 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E202368C1A000DB2915 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */; };
+		4B588E752368C1A200DB2915 /* AWSFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E212368C1A000DB2915 /* AWSFMDatabaseQueue.m */; };
+		4B588E762368C1A200DB2915 /* aws-sdk-ios in Resources */ = {isa = PBXBuildFile; fileRef = 4B588E222368C1A000DB2915 /* aws-sdk-ios */; };
+		4B588E772368C1A200DB2915 /* AWSFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E232368C1A000DB2915 /* AWSFMResultSet.m */; };
+		4B588E782368C1A200DB2915 /* AWSEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E242368C1A000DB2915 /* AWSEXTRuntimeExtensions.m */; };
+		4B588E792368C1A200DB2915 /* AWSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E252368C1A000DB2915 /* AWSLogging.m */; };
+		4B588E7A2368C1A200DB2915 /* AWSValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E262368C1A000DB2915 /* AWSValidation.m */; };
+		4B588E7B2368C1A200DB2915 /* AWSDDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E272368C1A000DB2915 /* AWSDDMultiFormatter.m */; };
+		4B588E7C2368C1A200DB2915 /* AWSURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E282368C1A000DB2915 /* AWSURLSessionManager.m */; };
+		4B588E7D2368C1A200DB2915 /* AWSDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E292368C1A000DB2915 /* AWSDDLog.m */; };
+		4B588E7E2368C1A200DB2915 /* AWSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2A2368C1A000DB2915 /* AWSModel.m */; };
+		4B588E7F2368C1A200DB2915 /* AWSTMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2B2368C1A100DB2915 /* AWSTMCache.m */; };
+		4B588E802368C1A200DB2915 /* AWSXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2C2368C1A100DB2915 /* AWSXMLWriter.m */; };
+		4B588E812368C1A200DB2915 /* AWSIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2D2368C1A100DB2915 /* AWSIdentityProvider.m */; };
+		4B588E822368C1A200DB2915 /* AWSMTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2E2368C1A100DB2915 /* AWSMTLManagedObjectAdapter.m */; };
+		4B588E832368C1A200DB2915 /* AWSSTSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2F2368C1A100DB2915 /* AWSSTSService.m */; };
+		4B588E842368C1A200DB2915 /* AWSURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E302368C1A100DB2915 /* AWSURLRequestSerialization.m */; };
+		4B588E852368C1A200DB2915 /* AWSURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E312368C1A100DB2915 /* AWSURLResponseSerialization.m */; };
+		4B588E862368C1A200DB2915 /* AWSS3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E322368C1A100DB2915 /* AWSS3Model.m */; };
+		4B588E872368C1A200DB2915 /* AWSDDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E332368C1A100DB2915 /* AWSDDASLLogCapture.m */; };
+		4B588E882368C1A200DB2915 /* AWSEXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E342368C1A100DB2915 /* AWSEXTScope.m */; };
+		4B588E892368C1A200DB2915 /* AWSS3TransferUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E352368C1A100DB2915 /* AWSS3TransferUtility.m */; };
+		4B588E8A2368C1A200DB2915 /* logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E362368C1A100DB2915 /* logger.swift */; };
+		4B588E8B2368C1A200DB2915 /* AWSCognitoIdentity+Fabric.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E372368C1A100DB2915 /* AWSCognitoIdentity+Fabric.m */; };
+		4B588E8C2368C1A200DB2915 /* AWSS3Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E382368C1A100DB2915 /* AWSS3Service.m */; };
+		4B588E8D2368C1A200DB2915 /* AWSDDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E392368C1A200DB2915 /* AWSDDOSLogger.m */; };
+		4B588E8E2368C1A200DB2915 /* AWSTMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3A2368C1A200DB2915 /* AWSTMMemoryCache.m */; };
+		4B588E8F2368C1A200DB2915 /* AWSFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3B2368C1A200DB2915 /* AWSFMDatabasePool.m */; };
+		4B588E902368C1A200DB2915 /* AWSFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3C2368C1A200DB2915 /* AWSFMDatabaseAdditions.m */; };
+		4B588E912368C1A200DB2915 /* AWSClientContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3D2368C1A200DB2915 /* AWSClientContext.m */; };
+		4B588E922368C1A200DB2915 /* AWSMTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3E2368C1A200DB2915 /* AWSMTLValueTransformer.m */; };
+		4B588E932368C1A200DB2915 /* AWSNetworkingHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3F2368C1A200DB2915 /* AWSNetworkingHelpers.m */; };
+		4B588E9B236A309400DB2915 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E9A236A309400DB2915 /* Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B588DC22368C08C00DB2915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B588DB62368C08C00DB2915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B588DBF2368C08C00DB2915;
+			remoteInfo = "watch-lib-tester-2 WatchKit App";
+		};
+		4B588DD12368C08D00DB2915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B588DB62368C08C00DB2915 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B588DCE2368C08D00DB2915;
+			remoteInfo = "watch-lib-tester-2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B588DE32368C08E00DB2915 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B588DD02368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B588DE72368C08E00DB2915 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4B588DC12368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B588DBC2368C08C00DB2915 /* watch-lib-tester-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-lib-tester-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-lib-tester-2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B588DC62368C08C00DB2915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4B588DC82368C08D00DB2915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B588DCA2368C08D00DB2915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B588DCF2368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watch-lib-tester-2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B588DD42368C08E00DB2915 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		4B588DD62368C08E00DB2915 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		4B588DD82368C08E00DB2915 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		4B588DDA2368C08E00DB2915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B588DDC2368C08E00DB2915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B588DDD2368C08E00DB2915 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4B588DEB2368C19C00DB2915 /* AWSFMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabase.m; path = "AppConnect-WatchOS/AWSFMDatabase.m"; sourceTree = SOURCE_ROOT; };
+		4B588DEC2368C19C00DB2915 /* AWSDDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDASLLogger.m; path = "AppConnect-WatchOS/AWSDDASLLogger.m"; sourceTree = SOURCE_ROOT; };
+		4B588DED2368C19C00DB2915 /* AWSCancellationToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCancellationToken.m; path = "AppConnect-WatchOS/AWSCancellationToken.m"; sourceTree = SOURCE_ROOT; };
+		4B588DEE2368C19C00DB2915 /* AWSS3Resources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3Resources.m; path = "AppConnect-WatchOS/AWSS3Resources.m"; sourceTree = SOURCE_ROOT; };
+		4B588DEF2368C19C00DB2915 /* NSError+AWSMTLModelException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+AWSMTLModelException.m"; path = "AppConnect-WatchOS/NSError+AWSMTLModelException.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF02368C19C00DB2915 /* AWSSynchronizedMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSSynchronizedMutableDictionary.m; path = "AppConnect-WatchOS/AWSSynchronizedMutableDictionary.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF12368C19C00DB2915 /* AWSS3TransferUtility+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AWSS3TransferUtility+Validation.m"; path = "AppConnect-WatchOS/AWSS3TransferUtility+Validation.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF22368C19C00DB2915 /* AWSS3PreSignedURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3PreSignedURL.m; path = "AppConnect-WatchOS/AWSS3PreSignedURL.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF32368C19C00DB2915 /* NSDictionary+AWSMTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+AWSMTLManipulationAdditions.m"; path = "AppConnect-WatchOS/NSDictionary+AWSMTLManipulationAdditions.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF42368C19C00DB2915 /* AWSMTLReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSMTLReflection.m; path = "AppConnect-WatchOS/AWSMTLReflection.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF52368C19C00DB2915 /* AWSDDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDFileLogger.m; path = "AppConnect-WatchOS/AWSDDFileLogger.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF62368C19C00DB2915 /* AWSS3TransferUtility+HeaderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AWSS3TransferUtility+HeaderHelper.m"; path = "AppConnect-WatchOS/AWSS3TransferUtility+HeaderHelper.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF72368C19C00DB2915 /* AWSTMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSTMDiskCache.m; path = "AppConnect-WatchOS/AWSTMDiskCache.m"; sourceTree = SOURCE_ROOT; };
+		4B588DF82368C19C00DB2915 /* s3-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "s3-header.h"; path = "AppConnect-WatchOS/s3-header.h"; sourceTree = SOURCE_ROOT; };
+		4B588DF92368C19C00DB2915 /* AWSCognitoIdentityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityModel.m; path = "AppConnect-WatchOS/AWSCognitoIdentityModel.m"; sourceTree = SOURCE_ROOT; };
+		4B588DFA2368C19C00DB2915 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "AppConnect-WatchOS/README.md"; sourceTree = SOURCE_ROOT; };
+		4B588DFB2368C19D00DB2915 /* AWSSTSResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSSTSResources.m; path = "AppConnect-WatchOS/AWSSTSResources.m"; sourceTree = SOURCE_ROOT; };
+		4B588DFC2368C19D00DB2915 /* AWSURLRequestRetryHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSURLRequestRetryHandler.m; path = "AppConnect-WatchOS/AWSURLRequestRetryHandler.m"; sourceTree = SOURCE_ROOT; };
+		4B588DFD2368C19D00DB2915 /* AWSInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSInfo.m; path = "AppConnect-WatchOS/AWSInfo.m"; sourceTree = SOURCE_ROOT; };
+		4B588DFE2368C19D00DB2915 /* AWSCancellationTokenRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCancellationTokenRegistration.m; path = "AppConnect-WatchOS/AWSCancellationTokenRegistration.m"; sourceTree = SOURCE_ROOT; };
+		4B588DFF2368C19D00DB2915 /* AWSSTSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSSTSModel.m; path = "AppConnect-WatchOS/AWSSTSModel.m"; sourceTree = SOURCE_ROOT; };
+		4B588E002368C19D00DB2915 /* AWSNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSNetworking.m; path = "AppConnect-WatchOS/AWSNetworking.m"; sourceTree = SOURCE_ROOT; };
+		4B588E012368C19D00DB2915 /* AWSS3TransferUtilityDatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3TransferUtilityDatabaseHelper.m; path = "AppConnect-WatchOS/AWSS3TransferUtilityDatabaseHelper.m"; sourceTree = SOURCE_ROOT; };
+		4B588E022368C19D00DB2915 /* AWSXMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSXMLDictionary.m; path = "AppConnect-WatchOS/AWSXMLDictionary.m"; sourceTree = SOURCE_ROOT; };
+		4B588E032368C19D00DB2915 /* AWSDDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDTTYLogger.m; path = "AppConnect-WatchOS/AWSDDTTYLogger.m"; sourceTree = SOURCE_ROOT; };
+		4B588E042368C19D00DB2915 /* AWSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCategory.m; path = "AppConnect-WatchOS/AWSCategory.m"; sourceTree = SOURCE_ROOT; };
+		4B588E052368C19D00DB2915 /* AWSDDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDAbstractDatabaseLogger.m; path = "AppConnect-WatchOS/AWSDDAbstractDatabaseLogger.m"; sourceTree = SOURCE_ROOT; };
+		4B588E062368C19D00DB2915 /* AWSS3RequestRetryHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3RequestRetryHandler.m; path = "AppConnect-WatchOS/AWSS3RequestRetryHandler.m"; sourceTree = SOURCE_ROOT; };
+		4B588E072368C19D00DB2915 /* AWSMTLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSMTLModel.m; path = "AppConnect-WatchOS/AWSMTLModel.m"; sourceTree = SOURCE_ROOT; };
+		4B588E082368C19D00DB2915 /* AWSExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSExecutor.m; path = "AppConnect-WatchOS/AWSExecutor.m"; sourceTree = SOURCE_ROOT; };
+		4B588E092368C19D00DB2915 /* AWSS3TransferManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3TransferManager.m; path = "AppConnect-WatchOS/AWSS3TransferManager.m"; sourceTree = SOURCE_ROOT; };
+		4B588E0A2368C19D00DB2915 /* AWSFMDB+AWSHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AWSFMDB+AWSHelpers.m"; path = "AppConnect-WatchOS/AWSFMDB+AWSHelpers.m"; sourceTree = SOURCE_ROOT; };
+		4B588E0B2368C19E00DB2915 /* AWSCancellationTokenSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCancellationTokenSource.m; path = "AppConnect-WatchOS/AWSCancellationTokenSource.m"; sourceTree = SOURCE_ROOT; };
+		4B588E0C2368C19E00DB2915 /* NSValueTransformer+AWSMTLInversionAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+AWSMTLInversionAdditions.m"; path = "AppConnect-WatchOS/NSValueTransformer+AWSMTLInversionAdditions.m"; sourceTree = SOURCE_ROOT; };
+		4B588E0D2368C19E00DB2915 /* AWSGZIP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSGZIP.m; path = "AppConnect-WatchOS/AWSGZIP.m"; sourceTree = SOURCE_ROOT; };
+		4B588E0E2368C19E00DB2915 /* AWSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSService.m; path = "AppConnect-WatchOS/AWSService.m"; sourceTree = SOURCE_ROOT; };
+		4B588E0F2368C19E00DB2915 /* AWSTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSTask.m; path = "AppConnect-WatchOS/AWSTask.m"; sourceTree = SOURCE_ROOT; };
+		4B588E102368C19E00DB2915 /* AWSUICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSUICKeyChainStore.m; path = "AppConnect-WatchOS/AWSUICKeyChainStore.m"; sourceTree = SOURCE_ROOT; };
+		4B588E112368C19E00DB2915 /* MedistranoStage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedistranoStage.swift; path = "AppConnect-WatchOS/MedistranoStage.swift"; sourceTree = SOURCE_ROOT; };
+		4B588E122368C19E00DB2915 /* NSArray+AWSMTLManipulationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+AWSMTLManipulationAdditions.m"; path = "AppConnect-WatchOS/NSArray+AWSMTLManipulationAdditions.m"; sourceTree = SOURCE_ROOT; };
+		4B588E132368C19E00DB2915 /* AWSCognitoIdentityResources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityResources.m; path = "AppConnect-WatchOS/AWSCognitoIdentityResources.m"; sourceTree = SOURCE_ROOT; };
+		4B588E142368C19E00DB2915 /* AWSMTLJSONAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSMTLJSONAdapter.m; path = "AppConnect-WatchOS/AWSMTLJSONAdapter.m"; sourceTree = SOURCE_ROOT; };
+		4B588E152368C19F00DB2915 /* NSObject+AWSMTLComparisonAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+AWSMTLComparisonAdditions.m"; path = "AppConnect-WatchOS/NSObject+AWSMTLComparisonAdditions.m"; sourceTree = SOURCE_ROOT; };
+		4B588E162368C19F00DB2915 /* AWSMTLModel+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AWSMTLModel+NSCoding.m"; path = "AppConnect-WatchOS/AWSMTLModel+NSCoding.m"; sourceTree = SOURCE_ROOT; };
+		4B588E172368C19F00DB2915 /* AWSBolts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSBolts.m; path = "AppConnect-WatchOS/AWSBolts.m"; sourceTree = SOURCE_ROOT; };
+		4B588E182368C19F00DB2915 /* AWSS3Serializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3Serializer.m; path = "AppConnect-WatchOS/AWSS3Serializer.m"; sourceTree = SOURCE_ROOT; };
+		4B588E192368C19F00DB2915 /* EproEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EproEndpoint.swift; path = "AppConnect-WatchOS/EproEndpoint.swift"; sourceTree = SOURCE_ROOT; };
+		4B588E1A2368C19F00DB2915 /* AWSSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSSerialization.m; path = "AppConnect-WatchOS/AWSSerialization.m"; sourceTree = SOURCE_ROOT; };
+		4B588E1B2368C19F00DB2915 /* AWSCognitoIdentityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCognitoIdentityService.m; path = "AppConnect-WatchOS/AWSCognitoIdentityService.m"; sourceTree = SOURCE_ROOT; };
+		4B588E1C2368C19F00DB2915 /* AWSS3TransferUtilityTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3TransferUtilityTasks.m; path = "AppConnect-WatchOS/AWSS3TransferUtilityTasks.m"; sourceTree = SOURCE_ROOT; };
+		4B588E1D2368C19F00DB2915 /* AWSCredentialsProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSCredentialsProvider.m; path = "AppConnect-WatchOS/AWSCredentialsProvider.m"; sourceTree = SOURCE_ROOT; };
+		4B588E1E2368C19F00DB2915 /* AWSSignature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSSignature.m; path = "AppConnect-WatchOS/AWSSignature.m"; sourceTree = SOURCE_ROOT; };
+		4B588E1F2368C1A000DB2915 /* AWSTaskCompletionSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSTaskCompletionSource.m; path = "AppConnect-WatchOS/AWSTaskCompletionSource.m"; sourceTree = SOURCE_ROOT; };
+		4B588E202368C1A000DB2915 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m"; path = "AppConnect-WatchOS/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m"; sourceTree = SOURCE_ROOT; };
+		4B588E212368C1A000DB2915 /* AWSFMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabaseQueue.m; path = "AppConnect-WatchOS/AWSFMDatabaseQueue.m"; sourceTree = SOURCE_ROOT; };
+		4B588E222368C1A000DB2915 /* aws-sdk-ios */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "aws-sdk-ios"; path = "AppConnect-WatchOS/aws-sdk-ios"; sourceTree = SOURCE_ROOT; };
+		4B588E232368C1A000DB2915 /* AWSFMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSFMResultSet.m; path = "AppConnect-WatchOS/AWSFMResultSet.m"; sourceTree = SOURCE_ROOT; };
+		4B588E242368C1A000DB2915 /* AWSEXTRuntimeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSEXTRuntimeExtensions.m; path = "AppConnect-WatchOS/AWSEXTRuntimeExtensions.m"; sourceTree = SOURCE_ROOT; };
+		4B588E252368C1A000DB2915 /* AWSLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSLogging.m; path = "AppConnect-WatchOS/AWSLogging.m"; sourceTree = SOURCE_ROOT; };
+		4B588E262368C1A000DB2915 /* AWSValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSValidation.m; path = "AppConnect-WatchOS/AWSValidation.m"; sourceTree = SOURCE_ROOT; };
+		4B588E272368C1A000DB2915 /* AWSDDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDMultiFormatter.m; path = "AppConnect-WatchOS/AWSDDMultiFormatter.m"; sourceTree = SOURCE_ROOT; };
+		4B588E282368C1A000DB2915 /* AWSURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSURLSessionManager.m; path = "AppConnect-WatchOS/AWSURLSessionManager.m"; sourceTree = SOURCE_ROOT; };
+		4B588E292368C1A000DB2915 /* AWSDDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDLog.m; path = "AppConnect-WatchOS/AWSDDLog.m"; sourceTree = SOURCE_ROOT; };
+		4B588E2A2368C1A000DB2915 /* AWSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSModel.m; path = "AppConnect-WatchOS/AWSModel.m"; sourceTree = SOURCE_ROOT; };
+		4B588E2B2368C1A100DB2915 /* AWSTMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSTMCache.m; path = "AppConnect-WatchOS/AWSTMCache.m"; sourceTree = SOURCE_ROOT; };
+		4B588E2C2368C1A100DB2915 /* AWSXMLWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSXMLWriter.m; path = "AppConnect-WatchOS/AWSXMLWriter.m"; sourceTree = SOURCE_ROOT; };
+		4B588E2D2368C1A100DB2915 /* AWSIdentityProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSIdentityProvider.m; path = "AppConnect-WatchOS/AWSIdentityProvider.m"; sourceTree = SOURCE_ROOT; };
+		4B588E2E2368C1A100DB2915 /* AWSMTLManagedObjectAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSMTLManagedObjectAdapter.m; path = "AppConnect-WatchOS/AWSMTLManagedObjectAdapter.m"; sourceTree = SOURCE_ROOT; };
+		4B588E2F2368C1A100DB2915 /* AWSSTSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSSTSService.m; path = "AppConnect-WatchOS/AWSSTSService.m"; sourceTree = SOURCE_ROOT; };
+		4B588E302368C1A100DB2915 /* AWSURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSURLRequestSerialization.m; path = "AppConnect-WatchOS/AWSURLRequestSerialization.m"; sourceTree = SOURCE_ROOT; };
+		4B588E312368C1A100DB2915 /* AWSURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSURLResponseSerialization.m; path = "AppConnect-WatchOS/AWSURLResponseSerialization.m"; sourceTree = SOURCE_ROOT; };
+		4B588E322368C1A100DB2915 /* AWSS3Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3Model.m; path = "AppConnect-WatchOS/AWSS3Model.m"; sourceTree = SOURCE_ROOT; };
+		4B588E332368C1A100DB2915 /* AWSDDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDASLLogCapture.m; path = "AppConnect-WatchOS/AWSDDASLLogCapture.m"; sourceTree = SOURCE_ROOT; };
+		4B588E342368C1A100DB2915 /* AWSEXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSEXTScope.m; path = "AppConnect-WatchOS/AWSEXTScope.m"; sourceTree = SOURCE_ROOT; };
+		4B588E352368C1A100DB2915 /* AWSS3TransferUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3TransferUtility.m; path = "AppConnect-WatchOS/AWSS3TransferUtility.m"; sourceTree = SOURCE_ROOT; };
+		4B588E362368C1A100DB2915 /* logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = logger.swift; path = "AppConnect-WatchOS/logger.swift"; sourceTree = SOURCE_ROOT; };
+		4B588E372368C1A100DB2915 /* AWSCognitoIdentity+Fabric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AWSCognitoIdentity+Fabric.m"; path = "AppConnect-WatchOS/AWSCognitoIdentity+Fabric.m"; sourceTree = SOURCE_ROOT; };
+		4B588E382368C1A100DB2915 /* AWSS3Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSS3Service.m; path = "AppConnect-WatchOS/AWSS3Service.m"; sourceTree = SOURCE_ROOT; };
+		4B588E392368C1A200DB2915 /* AWSDDOSLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSDDOSLogger.m; path = "AppConnect-WatchOS/AWSDDOSLogger.m"; sourceTree = SOURCE_ROOT; };
+		4B588E3A2368C1A200DB2915 /* AWSTMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSTMMemoryCache.m; path = "AppConnect-WatchOS/AWSTMMemoryCache.m"; sourceTree = SOURCE_ROOT; };
+		4B588E3B2368C1A200DB2915 /* AWSFMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabasePool.m; path = "AppConnect-WatchOS/AWSFMDatabasePool.m"; sourceTree = SOURCE_ROOT; };
+		4B588E3C2368C1A200DB2915 /* AWSFMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSFMDatabaseAdditions.m; path = "AppConnect-WatchOS/AWSFMDatabaseAdditions.m"; sourceTree = SOURCE_ROOT; };
+		4B588E3D2368C1A200DB2915 /* AWSClientContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSClientContext.m; path = "AppConnect-WatchOS/AWSClientContext.m"; sourceTree = SOURCE_ROOT; };
+		4B588E3E2368C1A200DB2915 /* AWSMTLValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSMTLValueTransformer.m; path = "AppConnect-WatchOS/AWSMTLValueTransformer.m"; sourceTree = SOURCE_ROOT; };
+		4B588E3F2368C1A200DB2915 /* AWSNetworkingHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWSNetworkingHelpers.m; path = "AppConnect-WatchOS/AWSNetworkingHelpers.m"; sourceTree = SOURCE_ROOT; };
+		4B588E98236A309400DB2915 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B588E9A236A309400DB2915 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		4B588E9C236A309400DB2915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B588DCC2368C08D00DB2915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B588E95236A309400DB2915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B588DB52368C08C00DB2915 = {
+			isa = PBXGroup;
+			children = (
+				4B588DC42368C08C00DB2915 /* watch-lib-tester-2 WatchKit App */,
+				4B588DD32368C08E00DB2915 /* watch-lib-tester-2 WatchKit Extension */,
+				4B588E99236A309400DB2915 /* Tests */,
+				4B588DBD2368C08C00DB2915 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B588DBD2368C08C00DB2915 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B588DBC2368C08C00DB2915 /* watch-lib-tester-2.app */,
+				4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */,
+				4B588DCF2368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension.appex */,
+				4B588E98236A309400DB2915 /* Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B588DC42368C08C00DB2915 /* watch-lib-tester-2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4B588DC52368C08C00DB2915 /* Interface.storyboard */,
+				4B588DC82368C08D00DB2915 /* Assets.xcassets */,
+				4B588DCA2368C08D00DB2915 /* Info.plist */,
+			);
+			path = "watch-lib-tester-2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		4B588DD32368C08E00DB2915 /* watch-lib-tester-2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4B588E222368C1A000DB2915 /* aws-sdk-ios */,
+				4B588E172368C19F00DB2915 /* AWSBolts.m */,
+				4B588DED2368C19C00DB2915 /* AWSCancellationToken.m */,
+				4B588DFE2368C19D00DB2915 /* AWSCancellationTokenRegistration.m */,
+				4B588E0B2368C19E00DB2915 /* AWSCancellationTokenSource.m */,
+				4B588E042368C19D00DB2915 /* AWSCategory.m */,
+				4B588E3D2368C1A200DB2915 /* AWSClientContext.m */,
+				4B588E372368C1A100DB2915 /* AWSCognitoIdentity+Fabric.m */,
+				4B588DF92368C19C00DB2915 /* AWSCognitoIdentityModel.m */,
+				4B588E132368C19E00DB2915 /* AWSCognitoIdentityResources.m */,
+				4B588E1B2368C19F00DB2915 /* AWSCognitoIdentityService.m */,
+				4B588E1D2368C19F00DB2915 /* AWSCredentialsProvider.m */,
+				4B588E052368C19D00DB2915 /* AWSDDAbstractDatabaseLogger.m */,
+				4B588E332368C1A100DB2915 /* AWSDDASLLogCapture.m */,
+				4B588DEC2368C19C00DB2915 /* AWSDDASLLogger.m */,
+				4B588DF52368C19C00DB2915 /* AWSDDFileLogger.m */,
+				4B588E292368C1A000DB2915 /* AWSDDLog.m */,
+				4B588E272368C1A000DB2915 /* AWSDDMultiFormatter.m */,
+				4B588E392368C1A200DB2915 /* AWSDDOSLogger.m */,
+				4B588E032368C19D00DB2915 /* AWSDDTTYLogger.m */,
+				4B588E082368C19D00DB2915 /* AWSExecutor.m */,
+				4B588E242368C1A000DB2915 /* AWSEXTRuntimeExtensions.m */,
+				4B588E342368C1A100DB2915 /* AWSEXTScope.m */,
+				4B588DEB2368C19C00DB2915 /* AWSFMDatabase.m */,
+				4B588E3C2368C1A200DB2915 /* AWSFMDatabaseAdditions.m */,
+				4B588E3B2368C1A200DB2915 /* AWSFMDatabasePool.m */,
+				4B588E212368C1A000DB2915 /* AWSFMDatabaseQueue.m */,
+				4B588E0A2368C19D00DB2915 /* AWSFMDB+AWSHelpers.m */,
+				4B588E232368C1A000DB2915 /* AWSFMResultSet.m */,
+				4B588E0D2368C19E00DB2915 /* AWSGZIP.m */,
+				4B588E2D2368C1A100DB2915 /* AWSIdentityProvider.m */,
+				4B588DFD2368C19D00DB2915 /* AWSInfo.m */,
+				4B588E252368C1A000DB2915 /* AWSLogging.m */,
+				4B588E2A2368C1A000DB2915 /* AWSModel.m */,
+				4B588E142368C19E00DB2915 /* AWSMTLJSONAdapter.m */,
+				4B588E2E2368C1A100DB2915 /* AWSMTLManagedObjectAdapter.m */,
+				4B588E072368C19D00DB2915 /* AWSMTLModel.m */,
+				4B588E162368C19F00DB2915 /* AWSMTLModel+NSCoding.m */,
+				4B588DF42368C19C00DB2915 /* AWSMTLReflection.m */,
+				4B588E3E2368C1A200DB2915 /* AWSMTLValueTransformer.m */,
+				4B588E002368C19D00DB2915 /* AWSNetworking.m */,
+				4B588E3F2368C1A200DB2915 /* AWSNetworkingHelpers.m */,
+				4B588E322368C1A100DB2915 /* AWSS3Model.m */,
+				4B588DF22368C19C00DB2915 /* AWSS3PreSignedURL.m */,
+				4B588E062368C19D00DB2915 /* AWSS3RequestRetryHandler.m */,
+				4B588DEE2368C19C00DB2915 /* AWSS3Resources.m */,
+				4B588E182368C19F00DB2915 /* AWSS3Serializer.m */,
+				4B588E382368C1A100DB2915 /* AWSS3Service.m */,
+				4B588E092368C19D00DB2915 /* AWSS3TransferManager.m */,
+				4B588E352368C1A100DB2915 /* AWSS3TransferUtility.m */,
+				4B588DF62368C19C00DB2915 /* AWSS3TransferUtility+HeaderHelper.m */,
+				4B588DF12368C19C00DB2915 /* AWSS3TransferUtility+Validation.m */,
+				4B588E012368C19D00DB2915 /* AWSS3TransferUtilityDatabaseHelper.m */,
+				4B588E1C2368C19F00DB2915 /* AWSS3TransferUtilityTasks.m */,
+				4B588E1A2368C19F00DB2915 /* AWSSerialization.m */,
+				4B588E0E2368C19E00DB2915 /* AWSService.m */,
+				4B588E1E2368C19F00DB2915 /* AWSSignature.m */,
+				4B588DFF2368C19D00DB2915 /* AWSSTSModel.m */,
+				4B588DFB2368C19D00DB2915 /* AWSSTSResources.m */,
+				4B588E2F2368C1A100DB2915 /* AWSSTSService.m */,
+				4B588DF02368C19C00DB2915 /* AWSSynchronizedMutableDictionary.m */,
+				4B588E0F2368C19E00DB2915 /* AWSTask.m */,
+				4B588E1F2368C1A000DB2915 /* AWSTaskCompletionSource.m */,
+				4B588E2B2368C1A100DB2915 /* AWSTMCache.m */,
+				4B588DF72368C19C00DB2915 /* AWSTMDiskCache.m */,
+				4B588E3A2368C1A200DB2915 /* AWSTMMemoryCache.m */,
+				4B588E102368C19E00DB2915 /* AWSUICKeyChainStore.m */,
+				4B588DFC2368C19D00DB2915 /* AWSURLRequestRetryHandler.m */,
+				4B588E302368C1A100DB2915 /* AWSURLRequestSerialization.m */,
+				4B588E312368C1A100DB2915 /* AWSURLResponseSerialization.m */,
+				4B588E282368C1A000DB2915 /* AWSURLSessionManager.m */,
+				4B588E262368C1A000DB2915 /* AWSValidation.m */,
+				4B588E022368C19D00DB2915 /* AWSXMLDictionary.m */,
+				4B588E2C2368C1A100DB2915 /* AWSXMLWriter.m */,
+				4B588E192368C19F00DB2915 /* EproEndpoint.swift */,
+				4B588E362368C1A100DB2915 /* logger.swift */,
+				4B588E112368C19E00DB2915 /* MedistranoStage.swift */,
+				4B588E122368C19E00DB2915 /* NSArray+AWSMTLManipulationAdditions.m */,
+				4B588DF32368C19C00DB2915 /* NSDictionary+AWSMTLManipulationAdditions.m */,
+				4B588DEF2368C19C00DB2915 /* NSError+AWSMTLModelException.m */,
+				4B588E152368C19F00DB2915 /* NSObject+AWSMTLComparisonAdditions.m */,
+				4B588E0C2368C19E00DB2915 /* NSValueTransformer+AWSMTLInversionAdditions.m */,
+				4B588E202368C1A000DB2915 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */,
+				4B588DFA2368C19C00DB2915 /* README.md */,
+				4B588DF82368C19C00DB2915 /* s3-header.h */,
+				4B588DD42368C08E00DB2915 /* InterfaceController.swift */,
+				4B588DD62368C08E00DB2915 /* ExtensionDelegate.swift */,
+				4B588DD82368C08E00DB2915 /* NotificationController.swift */,
+				4B588DDA2368C08E00DB2915 /* Assets.xcassets */,
+				4B588DDC2368C08E00DB2915 /* Info.plist */,
+				4B588DDD2368C08E00DB2915 /* PushNotificationPayload.apns */,
+			);
+			path = "watch-lib-tester-2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4B588E99236A309400DB2915 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4B588E9A236A309400DB2915 /* Tests.swift */,
+				4B588E9C236A309400DB2915 /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B588DBB2368C08C00DB2915 /* watch-lib-tester-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B588DE82368C08E00DB2915 /* Build configuration list for PBXNativeTarget "watch-lib-tester-2" */;
+			buildPhases = (
+				4B588DBA2368C08C00DB2915 /* Resources */,
+				4B588DE72368C08E00DB2915 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B588DC32368C08C00DB2915 /* PBXTargetDependency */,
+			);
+			name = "watch-lib-tester-2";
+			productName = "watch-lib-tester-2";
+			productReference = 4B588DBC2368C08C00DB2915 /* watch-lib-tester-2.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4B588DBF2368C08C00DB2915 /* watch-lib-tester-2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B588DE42368C08E00DB2915 /* Build configuration list for PBXNativeTarget "watch-lib-tester-2 WatchKit App" */;
+			buildPhases = (
+				4B588DBE2368C08C00DB2915 /* Resources */,
+				4B588DE32368C08E00DB2915 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B588DD22368C08D00DB2915 /* PBXTargetDependency */,
+			);
+			name = "watch-lib-tester-2 WatchKit App";
+			productName = "watch-lib-tester-2 WatchKit App";
+			productReference = 4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		4B588DCE2368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B588DE02368C08E00DB2915 /* Build configuration list for PBXNativeTarget "watch-lib-tester-2 WatchKit Extension" */;
+			buildPhases = (
+				4B588DCB2368C08D00DB2915 /* Sources */,
+				4B588DCC2368C08D00DB2915 /* Frameworks */,
+				4B588DCD2368C08D00DB2915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watch-lib-tester-2 WatchKit Extension";
+			productName = "watch-lib-tester-2 WatchKit Extension";
+			productReference = 4B588DCF2368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		4B588E97236A309400DB2915 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B588E9D236A309400DB2915 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				4B588E94236A309400DB2915 /* Sources */,
+				4B588E95236A309400DB2915 /* Frameworks */,
+				4B588E96236A309400DB2915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 4B588E98236A309400DB2915 /* Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B588DB62368C08C00DB2915 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Nathaniel Jacobs";
+				TargetAttributes = {
+					4B588DBB2368C08C00DB2915 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4B588DBF2368C08C00DB2915 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4B588DCE2368C08D00DB2915 = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+					4B588E97236A309400DB2915 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4B588DB92368C08C00DB2915 /* Build configuration list for PBXProject "watch-lib-tester-2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B588DB52368C08C00DB2915;
+			productRefGroup = 4B588DBD2368C08C00DB2915 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B588DBB2368C08C00DB2915 /* watch-lib-tester-2 */,
+				4B588DBF2368C08C00DB2915 /* watch-lib-tester-2 WatchKit App */,
+				4B588DCE2368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension */,
+				4B588E97236A309400DB2915 /* Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B588DBA2368C08C00DB2915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B588DBE2368C08C00DB2915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B588DC92368C08D00DB2915 /* Assets.xcassets in Resources */,
+				4B588DC72368C08C00DB2915 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B588DCD2368C08D00DB2915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B588E762368C1A200DB2915 /* aws-sdk-ios in Resources */,
+				4B588E4E2368C1A200DB2915 /* README.md in Resources */,
+				4B588DDB2368C08E00DB2915 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B588E96236A309400DB2915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B588DCB2368C08D00DB2915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B588E522368C1A200DB2915 /* AWSCancellationTokenRegistration.m in Sources */,
+				4B588E7E2368C1A200DB2915 /* AWSModel.m in Sources */,
+				4B588DD92368C08E00DB2915 /* NotificationController.swift in Sources */,
+				4B588E5D2368C1A200DB2915 /* AWSS3TransferManager.m in Sources */,
+				4B588E472368C1A200DB2915 /* AWSS3PreSignedURL.m in Sources */,
+				4B588E6D2368C1A200DB2915 /* EproEndpoint.swift in Sources */,
+				4B588E432368C1A200DB2915 /* AWSS3Resources.m in Sources */,
+				4B588E542368C1A200DB2915 /* AWSNetworking.m in Sources */,
+				4B588E4B2368C1A200DB2915 /* AWSS3TransferUtility+HeaderHelper.m in Sources */,
+				4B588E7A2368C1A200DB2915 /* AWSValidation.m in Sources */,
+				4B588E562368C1A200DB2915 /* AWSXMLDictionary.m in Sources */,
+				4B588E892368C1A200DB2915 /* AWSS3TransferUtility.m in Sources */,
+				4B588E4A2368C1A200DB2915 /* AWSDDFileLogger.m in Sources */,
+				4B588E612368C1A200DB2915 /* AWSGZIP.m in Sources */,
+				4B588E482368C1A200DB2915 /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */,
+				4B588E4C2368C1A200DB2915 /* AWSTMDiskCache.m in Sources */,
+				4B588E722368C1A200DB2915 /* AWSSignature.m in Sources */,
+				4B588E492368C1A200DB2915 /* AWSMTLReflection.m in Sources */,
+				4B588E7C2368C1A200DB2915 /* AWSURLSessionManager.m in Sources */,
+				4B588E872368C1A200DB2915 /* AWSDDASLLogCapture.m in Sources */,
+				4B588E772368C1A200DB2915 /* AWSFMResultSet.m in Sources */,
+				4B588E902368C1A200DB2915 /* AWSFMDatabaseAdditions.m in Sources */,
+				4B588E5C2368C1A200DB2915 /* AWSExecutor.m in Sources */,
+				4B588E8E2368C1A200DB2915 /* AWSTMMemoryCache.m in Sources */,
+				4B588E6F2368C1A200DB2915 /* AWSCognitoIdentityService.m in Sources */,
+				4B588E402368C1A200DB2915 /* AWSFMDatabase.m in Sources */,
+				4B588E592368C1A200DB2915 /* AWSDDAbstractDatabaseLogger.m in Sources */,
+				4B588E852368C1A200DB2915 /* AWSURLResponseSerialization.m in Sources */,
+				4B588E452368C1A200DB2915 /* AWSSynchronizedMutableDictionary.m in Sources */,
+				4B588E5E2368C1A200DB2915 /* AWSFMDB+AWSHelpers.m in Sources */,
+				4B588E462368C1A200DB2915 /* AWSS3TransferUtility+Validation.m in Sources */,
+				4B588E802368C1A200DB2915 /* AWSXMLWriter.m in Sources */,
+				4B588E622368C1A200DB2915 /* AWSService.m in Sources */,
+				4B588E842368C1A200DB2915 /* AWSURLRequestSerialization.m in Sources */,
+				4B588E6B2368C1A200DB2915 /* AWSBolts.m in Sources */,
+				4B588E602368C1A200DB2915 /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */,
+				4B588E7F2368C1A200DB2915 /* AWSTMCache.m in Sources */,
+				4B588E862368C1A200DB2915 /* AWSS3Model.m in Sources */,
+				4B588E782368C1A200DB2915 /* AWSEXTRuntimeExtensions.m in Sources */,
+				4B588E502368C1A200DB2915 /* AWSURLRequestRetryHandler.m in Sources */,
+				4B588E632368C1A200DB2915 /* AWSTask.m in Sources */,
+				4B588E4D2368C1A200DB2915 /* AWSCognitoIdentityModel.m in Sources */,
+				4B588E5B2368C1A200DB2915 /* AWSMTLModel.m in Sources */,
+				4B588E8C2368C1A200DB2915 /* AWSS3Service.m in Sources */,
+				4B588E532368C1A200DB2915 /* AWSSTSModel.m in Sources */,
+				4B588E912368C1A200DB2915 /* AWSClientContext.m in Sources */,
+				4B588E652368C1A200DB2915 /* MedistranoStage.swift in Sources */,
+				4B588E752368C1A200DB2915 /* AWSFMDatabaseQueue.m in Sources */,
+				4B588E642368C1A200DB2915 /* AWSUICKeyChainStore.m in Sources */,
+				4B588E662368C1A200DB2915 /* NSArray+AWSMTLManipulationAdditions.m in Sources */,
+				4B588E832368C1A200DB2915 /* AWSSTSService.m in Sources */,
+				4B588E582368C1A200DB2915 /* AWSCategory.m in Sources */,
+				4B588E4F2368C1A200DB2915 /* AWSSTSResources.m in Sources */,
+				4B588E742368C1A200DB2915 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */,
+				4B588E422368C1A200DB2915 /* AWSCancellationToken.m in Sources */,
+				4B588E8D2368C1A200DB2915 /* AWSDDOSLogger.m in Sources */,
+				4B588E692368C1A200DB2915 /* NSObject+AWSMTLComparisonAdditions.m in Sources */,
+				4B588E512368C1A200DB2915 /* AWSInfo.m in Sources */,
+				4B588E5A2368C1A200DB2915 /* AWSS3RequestRetryHandler.m in Sources */,
+				4B588DD72368C08E00DB2915 /* ExtensionDelegate.swift in Sources */,
+				4B588E8A2368C1A200DB2915 /* logger.swift in Sources */,
+				4B588E6A2368C1A200DB2915 /* AWSMTLModel+NSCoding.m in Sources */,
+				4B588E672368C1A200DB2915 /* AWSCognitoIdentityResources.m in Sources */,
+				4B588E8B2368C1A200DB2915 /* AWSCognitoIdentity+Fabric.m in Sources */,
+				4B588E882368C1A200DB2915 /* AWSEXTScope.m in Sources */,
+				4B588E7D2368C1A200DB2915 /* AWSDDLog.m in Sources */,
+				4B588E822368C1A200DB2915 /* AWSMTLManagedObjectAdapter.m in Sources */,
+				4B588E7B2368C1A200DB2915 /* AWSDDMultiFormatter.m in Sources */,
+				4B588E6C2368C1A200DB2915 /* AWSS3Serializer.m in Sources */,
+				4B588E792368C1A200DB2915 /* AWSLogging.m in Sources */,
+				4B588E8F2368C1A200DB2915 /* AWSFMDatabasePool.m in Sources */,
+				4B588E702368C1A200DB2915 /* AWSS3TransferUtilityTasks.m in Sources */,
+				4B588E682368C1A200DB2915 /* AWSMTLJSONAdapter.m in Sources */,
+				4B588E812368C1A200DB2915 /* AWSIdentityProvider.m in Sources */,
+				4B588E732368C1A200DB2915 /* AWSTaskCompletionSource.m in Sources */,
+				4B588E6E2368C1A200DB2915 /* AWSSerialization.m in Sources */,
+				4B588E412368C1A200DB2915 /* AWSDDASLLogger.m in Sources */,
+				4B588DD52368C08E00DB2915 /* InterfaceController.swift in Sources */,
+				4B588E712368C1A200DB2915 /* AWSCredentialsProvider.m in Sources */,
+				4B588E922368C1A200DB2915 /* AWSMTLValueTransformer.m in Sources */,
+				4B588E552368C1A200DB2915 /* AWSS3TransferUtilityDatabaseHelper.m in Sources */,
+				4B588E442368C1A200DB2915 /* NSError+AWSMTLModelException.m in Sources */,
+				4B588E572368C1A200DB2915 /* AWSDDTTYLogger.m in Sources */,
+				4B588E5F2368C1A200DB2915 /* AWSCancellationTokenSource.m in Sources */,
+				4B588E932368C1A200DB2915 /* AWSNetworkingHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B588E94236A309400DB2915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B588E9B236A309400DB2915 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B588DC32368C08C00DB2915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B588DBF2368C08C00DB2915 /* watch-lib-tester-2 WatchKit App */;
+			targetProxy = 4B588DC22368C08C00DB2915 /* PBXContainerItemProxy */;
+		};
+		4B588DD22368C08D00DB2915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B588DCE2368C08D00DB2915 /* watch-lib-tester-2 WatchKit Extension */;
+			targetProxy = 4B588DD12368C08D00DB2915 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B588DC52368C08C00DB2915 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B588DC62368C08C00DB2915 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B588DDE2368C08E00DB2915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B588DDF2368C08E00DB2915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B588DE12368C08E00DB2915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AppConnect-WatchOS/aws-sdk-ios\"/**";
+				INFOPLIST_FILE = "watch-lib-tester-2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.watch-lib-tester-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/njacobs/Documents/GitHub/watch-lib-tester-2/AppConnect-WatchOS/s3-header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		4B588DE22368C08E00DB2915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AppConnect-WatchOS/aws-sdk-ios\"/**";
+				INFOPLIST_FILE = "watch-lib-tester-2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.watch-lib-tester-2.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/njacobs/Documents/GitHub/watch-lib-tester-2/AppConnect-WatchOS/s3-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		4B588DE52368C08E00DB2915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				IBSC_MODULE = watch_lib_tester_2_WatchKit_Extension;
+				INFOPLIST_FILE = "watch-lib-tester-2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.watch-lib-tester-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		4B588DE62368C08E00DB2915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				IBSC_MODULE = watch_lib_tester_2_WatchKit_Extension;
+				INFOPLIST_FILE = "watch-lib-tester-2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.watch-lib-tester-2.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		4B588DE92368C08E00DB2915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.watch-lib-tester-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4B588DEA2368C08E00DB2915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.watch-lib-tester-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4B588E9E236A309400DB2915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B588E9F236A309400DB2915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82UAH5SW65;
+				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mdsol.test-watch-package-app.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B588DB92368C08C00DB2915 /* Build configuration list for PBXProject "watch-lib-tester-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B588DDE2368C08E00DB2915 /* Debug */,
+				4B588DDF2368C08E00DB2915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B588DE02368C08E00DB2915 /* Build configuration list for PBXNativeTarget "watch-lib-tester-2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B588DE12368C08E00DB2915 /* Debug */,
+				4B588DE22368C08E00DB2915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B588DE42368C08E00DB2915 /* Build configuration list for PBXNativeTarget "watch-lib-tester-2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B588DE52368C08E00DB2915 /* Debug */,
+				4B588DE62368C08E00DB2915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B588DE82368C08E00DB2915 /* Build configuration list for PBXNativeTarget "watch-lib-tester-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B588DE92368C08E00DB2915 /* Debug */,
+				4B588DEA2368C08E00DB2915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B588E9D236A309400DB2915 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B588E9E236A309400DB2915 /* Debug */,
+				4B588E9F236A309400DB2915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B588DB62368C08C00DB2915 /* Project object */;
+}
