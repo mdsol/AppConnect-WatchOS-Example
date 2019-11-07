@@ -76,7 +76,7 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate {
 
         
         // Send the data!
-        EproEndpoint.executeIngestionRequest(medistranoStage: MedistranoStage.production, user: "njacobseprotest@mdsol.com", password: "Password1", subjectUuid: "309f0c35-a464-450f-b3fd-2d9c3037041b", data: stringData, filename: filename, completionHandler: completionHandler)
+        EproEndpoint.executeIngestionRequest(medistranoStage: MedistranoStage.production, user: "eprotest@mdsol.com", password: "Password", subjectUuid: "309f0c35-a464-450f-b3fd-2d9c3037041b", data: stringData, filename: filename, completionHandler: completionHandler)
         
     }
     
