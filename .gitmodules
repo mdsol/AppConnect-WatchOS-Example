@@ -1,0 +1,3 @@
+[submodule "AppConnect-WatchOS"]
+	path = AppConnect-WatchOS
+	url = https://github.com/mdsol/AppConnect-WatchOS.git
