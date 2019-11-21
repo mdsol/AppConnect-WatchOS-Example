@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController, WKCrownDelegate {
+class InterfaceController: WKInterfaceController, WKCrownDelegate, mediUploadable {
     
     @IBOutlet weak var uploadButton: WKInterfaceButton!
     
@@ -47,37 +47,26 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate {
         }
         let filename = "test_file_\(size)" // Files of the same name will be overwritten!  Use a unique filename to avoid collisions.
         
-        let action = WKAlertAction(title: "OK", style: WKAlertActionStyle.default) {
-            print("Ok")
-        }
-        
         sizeLabel.setText("Uploading")
-        var timeAtPress = Date()
-        let completionHandler : AWSS3TransferUtilityUploadCompletionHandlerBlock = { (task, error) -> Void in
-            let t = task as AWSS3TransferUtilityUploadTask
-            print(t.request?.description)
-            if ((error) != nil){
-                
-                //handle errors here
-                print(t.response?.description)
-                print("Upload failed")
-                self.sizeLabel.setText("\(self.size)MB")
-                print(error!.localizedDescription)
-                self.presentAlert(withTitle: "Failed upload!", message: "File upload failure! " + error!.localizedDescription, preferredStyle: WKAlertControllerStyle.alert, actions: [action])
-            }else{
-                //handle success here
-                self.presentAlert(withTitle: "Successful upload!", message: "File uploaded successfully. \(stringData.count/1000000) MB in \(Int(Date().timeIntervalSince(timeAtPress))) seconds", preferredStyle: WKAlertControllerStyle.alert, actions: [action])
-                self.sizeLabel.setText("\(self.size)MB")
 
-                print("File uploaded successfully in \(Int(Date().timeIntervalSince(timeAtPress))) seconds")
-            }
-        }
-        
-
-        
         // Send the data!
-        EproEndpoint.executeIngestionRequest(medistranoStage: MedistranoStage.production, user: "eprotest@mdsol.com", password: "Password", subjectUuid: "309f0c35-a464-450f-b3fd-2d9c3037041b", data: stringData, filename: filename, completionHandler: completionHandler)
+        EproEndpoint.executeIngestionRequest(medistranoStage: MedistranoStage.production, user: "eprotest@mdsol.com", password: "Password", subjectUuid: "309f0c35-a464-450f-b3fd-2d9c3037041b", data: stringData, filename: filename, mediUploadable: self)
+    }
+    
+    public func uploadCompleted(success: Bool, errorMessage: String, fileName: String) {
+        let action = WKAlertAction(title: "OK", style: WKAlertActionStyle.default) {
+              print("Ok")
+          }
         
+        if success {
+            self.presentAlert(withTitle: "Successful upload!", message: "File uploaded successfully. \(size) MB", preferredStyle: WKAlertControllerStyle.alert, actions: [action])
+            self.sizeLabel.setText("\(self.size)MB")
+            print("File uploaded successfully")
+        }else{
+            self.presentAlert(withTitle: "Failed upload!", message: "File upload failure! " + errorMessage, preferredStyle: WKAlertControllerStyle.alert, actions: [action])
+            print("Upload failed")
+            self.sizeLabel.setText("\(self.size)MB")
+        }
     }
     
     public func randomData(ofLength length: Int) throws -> Data {

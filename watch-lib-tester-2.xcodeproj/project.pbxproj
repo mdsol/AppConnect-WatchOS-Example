@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1A609B23874426004163F6 /* mediUploadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A609A23874426004163F6 /* mediUploadable.swift */; };
 		4B588DC12368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4B588DC72368C08C00DB2915 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DC52368C08C00DB2915 /* Interface.storyboard */; };
 		4B588DC92368C08D00DB2915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DC82368C08D00DB2915 /* Assets.xcassets */; };
@@ -145,6 +146,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B1A609423871400004163F6 /* mediUploadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediUploadable.swift; sourceTree = "<group>"; };
+		4B1A609A23874426004163F6 /* mediUploadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mediUploadable.swift; path = "AppConnect-WatchOS/mediUploadable.swift"; sourceTree = "<group>"; };
 		4B588DBC2368C08C00DB2915 /* watch-lib-tester-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-lib-tester-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-lib-tester-2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B588DC62368C08C00DB2915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -268,6 +271,7 @@
 		4B588DB52368C08C00DB2915 = {
 			isa = PBXGroup;
 			children = (
+				4B1A609A23874426004163F6 /* mediUploadable.swift */,
 				4B588DC42368C08C00DB2915 /* watch-lib-tester-2 WatchKit App */,
 				4B588DD32368C08E00DB2915 /* watch-lib-tester-2 WatchKit Extension */,
 				4B588E99236A309400DB2915 /* Tests */,
@@ -390,6 +394,7 @@
 				4B588DDA2368C08E00DB2915 /* Assets.xcassets */,
 				4B588DDC2368C08E00DB2915 /* Info.plist */,
 				4B588DDD2368C08E00DB2915 /* PushNotificationPayload.apns */,
+				4B1A609423871400004163F6 /* mediUploadable.swift */,
 			);
 			path = "watch-lib-tester-2 WatchKit Extension";
 			sourceTree = "<group>";
@@ -561,6 +566,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1A609B23874426004163F6 /* mediUploadable.swift in Sources */,
 				4B588E522368C1A200DB2915 /* AWSCancellationTokenRegistration.m in Sources */,
 				4B588E7E2368C1A200DB2915 /* AWSModel.m in Sources */,
 				4B588DD92368C08E00DB2915 /* NotificationController.swift in Sources */,
@@ -814,7 +820,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/njacobs/Documents/GitHub/watch-lib-tester-2/AppConnect-WatchOS/s3-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/njacobs/Documents/GitHub/AppConnect-WatchOS-Example/AppConnect-WatchOS/s3-header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -840,7 +846,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/njacobs/Documents/GitHub/watch-lib-tester-2/AppConnect-WatchOS/s3-header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/njacobs/Documents/GitHub/AppConnect-WatchOS-Example/AppConnect-WatchOS/s3-header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 6.0;
