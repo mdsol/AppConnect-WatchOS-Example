@@ -7,7 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B1A609B23874426004163F6 /* mediUploadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A609A23874426004163F6 /* mediUploadable.swift */; };
+		4B1A609B23874426004163F6 /* MediUploadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A609A23874426004163F6 /* MediUploadable.swift */; };
+		4B1A609C2388477E004163F6 /* MediUploadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1A609A23874426004163F6 /* MediUploadable.swift */; };
+		4B1A609D2388477E004163F6 /* aws-sdk-ios in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E222368C1A000DB2915 /* aws-sdk-ios */; };
+		4B1A609E2388477E004163F6 /* AWSBolts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E172368C19F00DB2915 /* AWSBolts.m */; };
+		4B1A609F2388477E004163F6 /* AWSCancellationToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DED2368C19C00DB2915 /* AWSCancellationToken.m */; };
+		4B1A60A02388477E004163F6 /* AWSCancellationTokenRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFE2368C19D00DB2915 /* AWSCancellationTokenRegistration.m */; };
+		4B1A60A12388477E004163F6 /* AWSCancellationTokenSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0B2368C19E00DB2915 /* AWSCancellationTokenSource.m */; };
+		4B1A60A22388477E004163F6 /* AWSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E042368C19D00DB2915 /* AWSCategory.m */; };
+		4B1A60A32388477E004163F6 /* AWSClientContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3D2368C1A200DB2915 /* AWSClientContext.m */; };
+		4B1A60A42388477E004163F6 /* AWSCognitoIdentity+Fabric.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E372368C1A100DB2915 /* AWSCognitoIdentity+Fabric.m */; };
+		4B1A60A52388477E004163F6 /* AWSCognitoIdentityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF92368C19C00DB2915 /* AWSCognitoIdentityModel.m */; };
+		4B1A60A62388477E004163F6 /* AWSCognitoIdentityResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E132368C19E00DB2915 /* AWSCognitoIdentityResources.m */; };
+		4B1A60A72388477E004163F6 /* AWSCognitoIdentityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1B2368C19F00DB2915 /* AWSCognitoIdentityService.m */; };
+		4B1A60A82388477E004163F6 /* AWSCredentialsProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1D2368C19F00DB2915 /* AWSCredentialsProvider.m */; };
+		4B1A60A92388477E004163F6 /* AWSDDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E052368C19D00DB2915 /* AWSDDAbstractDatabaseLogger.m */; };
+		4B1A60AA2388477E004163F6 /* AWSDDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E332368C1A100DB2915 /* AWSDDASLLogCapture.m */; };
+		4B1A60AB2388477E004163F6 /* AWSDDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEC2368C19C00DB2915 /* AWSDDASLLogger.m */; };
+		4B1A60AC2388477E004163F6 /* AWSDDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF52368C19C00DB2915 /* AWSDDFileLogger.m */; };
+		4B1A60AD2388477E004163F6 /* AWSDDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E292368C1A000DB2915 /* AWSDDLog.m */; };
+		4B1A60AE2388477E004163F6 /* AWSDDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E272368C1A000DB2915 /* AWSDDMultiFormatter.m */; };
+		4B1A60AF2388477E004163F6 /* AWSDDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E392368C1A200DB2915 /* AWSDDOSLogger.m */; };
+		4B1A60B02388477E004163F6 /* AWSDDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E032368C19D00DB2915 /* AWSDDTTYLogger.m */; };
+		4B1A60B12388477E004163F6 /* AWSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E082368C19D00DB2915 /* AWSExecutor.m */; };
+		4B1A60B22388477E004163F6 /* AWSEXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E242368C1A000DB2915 /* AWSEXTRuntimeExtensions.m */; };
+		4B1A60B32388477E004163F6 /* AWSEXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E342368C1A100DB2915 /* AWSEXTScope.m */; };
+		4B1A60B42388477E004163F6 /* AWSFMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEB2368C19C00DB2915 /* AWSFMDatabase.m */; };
+		4B1A60B52388477E004163F6 /* AWSFMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3C2368C1A200DB2915 /* AWSFMDatabaseAdditions.m */; };
+		4B1A60B62388477E004163F6 /* AWSFMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3B2368C1A200DB2915 /* AWSFMDatabasePool.m */; };
+		4B1A60B72388477E004163F6 /* AWSFMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E212368C1A000DB2915 /* AWSFMDatabaseQueue.m */; };
+		4B1A60B82388477E004163F6 /* AWSFMDB+AWSHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0A2368C19D00DB2915 /* AWSFMDB+AWSHelpers.m */; };
+		4B1A60B92388477E004163F6 /* AWSFMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E232368C1A000DB2915 /* AWSFMResultSet.m */; };
+		4B1A60BA2388477E004163F6 /* AWSGZIP.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0D2368C19E00DB2915 /* AWSGZIP.m */; };
+		4B1A60BB2388477E004163F6 /* AWSIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2D2368C1A100DB2915 /* AWSIdentityProvider.m */; };
+		4B1A60BC2388477E004163F6 /* AWSInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFD2368C19D00DB2915 /* AWSInfo.m */; };
+		4B1A60BD2388477E004163F6 /* AWSLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E252368C1A000DB2915 /* AWSLogging.m */; };
+		4B1A60BE2388477E004163F6 /* AWSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2A2368C1A000DB2915 /* AWSModel.m */; };
+		4B1A60BF2388477E004163F6 /* AWSMTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E142368C19E00DB2915 /* AWSMTLJSONAdapter.m */; };
+		4B1A60C02388477E004163F6 /* AWSMTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2E2368C1A100DB2915 /* AWSMTLManagedObjectAdapter.m */; };
+		4B1A60C12388477E004163F6 /* AWSMTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E072368C19D00DB2915 /* AWSMTLModel.m */; };
+		4B1A60C22388477E004163F6 /* AWSMTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E162368C19F00DB2915 /* AWSMTLModel+NSCoding.m */; };
+		4B1A60C32388477E004163F6 /* AWSMTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF42368C19C00DB2915 /* AWSMTLReflection.m */; };
+		4B1A60C42388477E004163F6 /* AWSMTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3E2368C1A200DB2915 /* AWSMTLValueTransformer.m */; };
+		4B1A60C52388477E004163F6 /* AWSNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E002368C19D00DB2915 /* AWSNetworking.m */; };
+		4B1A60C62388477E004163F6 /* AWSNetworkingHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3F2368C1A200DB2915 /* AWSNetworkingHelpers.m */; };
+		4B1A60C72388477E004163F6 /* AWSS3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E322368C1A100DB2915 /* AWSS3Model.m */; };
+		4B1A60C82388477E004163F6 /* AWSS3PreSignedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF22368C19C00DB2915 /* AWSS3PreSignedURL.m */; };
+		4B1A60C92388477E004163F6 /* AWSS3RequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E062368C19D00DB2915 /* AWSS3RequestRetryHandler.m */; };
+		4B1A60CA2388477E004163F6 /* AWSS3Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEE2368C19C00DB2915 /* AWSS3Resources.m */; };
+		4B1A60CB2388477E004163F6 /* AWSS3Serializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E182368C19F00DB2915 /* AWSS3Serializer.m */; };
+		4B1A60CC2388477E004163F6 /* AWSS3Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E382368C1A100DB2915 /* AWSS3Service.m */; };
+		4B1A60CD2388477E004163F6 /* AWSS3TransferManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E092368C19D00DB2915 /* AWSS3TransferManager.m */; };
+		4B1A60CE2388477E004163F6 /* AWSS3TransferUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E352368C1A100DB2915 /* AWSS3TransferUtility.m */; };
+		4B1A60CF2388477E004163F6 /* AWSS3TransferUtility+HeaderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF62368C19C00DB2915 /* AWSS3TransferUtility+HeaderHelper.m */; };
+		4B1A60D02388477E004163F6 /* AWSS3TransferUtility+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF12368C19C00DB2915 /* AWSS3TransferUtility+Validation.m */; };
+		4B1A60D12388477E004163F6 /* AWSS3TransferUtilityDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E012368C19D00DB2915 /* AWSS3TransferUtilityDatabaseHelper.m */; };
+		4B1A60D22388477E004163F6 /* AWSS3TransferUtilityTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1C2368C19F00DB2915 /* AWSS3TransferUtilityTasks.m */; };
+		4B1A60D32388477E004163F6 /* AWSSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1A2368C19F00DB2915 /* AWSSerialization.m */; };
+		4B1A60D42388477E004163F6 /* AWSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0E2368C19E00DB2915 /* AWSService.m */; };
+		4B1A60D52388477E004163F6 /* AWSSignature.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1E2368C19F00DB2915 /* AWSSignature.m */; };
+		4B1A60D62388477E004163F6 /* AWSSTSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFF2368C19D00DB2915 /* AWSSTSModel.m */; };
+		4B1A60D72388477E004163F6 /* AWSSTSResources.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFB2368C19D00DB2915 /* AWSSTSResources.m */; };
+		4B1A60D82388477E004163F6 /* AWSSTSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2F2368C1A100DB2915 /* AWSSTSService.m */; };
+		4B1A60D92388477E004163F6 /* AWSSynchronizedMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF02368C19C00DB2915 /* AWSSynchronizedMutableDictionary.m */; };
+		4B1A60DA2388477E004163F6 /* AWSTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0F2368C19E00DB2915 /* AWSTask.m */; };
+		4B1A60DB2388477E004163F6 /* AWSTaskCompletionSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E1F2368C1A000DB2915 /* AWSTaskCompletionSource.m */; };
+		4B1A60DC2388477E004163F6 /* AWSTMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2B2368C1A100DB2915 /* AWSTMCache.m */; };
+		4B1A60DD2388477E004163F6 /* AWSTMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF72368C19C00DB2915 /* AWSTMDiskCache.m */; };
+		4B1A60DE2388477E004163F6 /* AWSTMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E3A2368C1A200DB2915 /* AWSTMMemoryCache.m */; };
+		4B1A60DF2388477E004163F6 /* AWSUICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E102368C19E00DB2915 /* AWSUICKeyChainStore.m */; };
+		4B1A60E02388477E004163F6 /* AWSURLRequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFC2368C19D00DB2915 /* AWSURLRequestRetryHandler.m */; };
+		4B1A60E12388477E004163F6 /* AWSURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E302368C1A100DB2915 /* AWSURLRequestSerialization.m */; };
+		4B1A60E22388477E004163F6 /* AWSURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E312368C1A100DB2915 /* AWSURLResponseSerialization.m */; };
+		4B1A60E32388477E004163F6 /* AWSURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E282368C1A000DB2915 /* AWSURLSessionManager.m */; };
+		4B1A60E42388477E004163F6 /* AWSValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E262368C1A000DB2915 /* AWSValidation.m */; };
+		4B1A60E52388477E004163F6 /* AWSXMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E022368C19D00DB2915 /* AWSXMLDictionary.m */; };
+		4B1A60E62388477E004163F6 /* AWSXMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E2C2368C1A100DB2915 /* AWSXMLWriter.m */; };
+		4B1A60E72388477E004163F6 /* EproEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E192368C19F00DB2915 /* EproEndpoint.swift */; };
+		4B1A60E82388477E004163F6 /* logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E362368C1A100DB2915 /* logger.swift */; };
+		4B1A60E92388477E004163F6 /* MedistranoStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E112368C19E00DB2915 /* MedistranoStage.swift */; };
+		4B1A60EA2388477E004163F6 /* NSArray+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E122368C19E00DB2915 /* NSArray+AWSMTLManipulationAdditions.m */; };
+		4B1A60EB2388477E004163F6 /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF32368C19C00DB2915 /* NSDictionary+AWSMTLManipulationAdditions.m */; };
+		4B1A60EC2388477E004163F6 /* NSError+AWSMTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DEF2368C19C00DB2915 /* NSError+AWSMTLModelException.m */; };
+		4B1A60ED2388477E004163F6 /* NSObject+AWSMTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E152368C19F00DB2915 /* NSObject+AWSMTLComparisonAdditions.m */; };
+		4B1A60EE2388477E004163F6 /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E0C2368C19E00DB2915 /* NSValueTransformer+AWSMTLInversionAdditions.m */; };
+		4B1A60EF2388477E004163F6 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B588E202368C1A000DB2915 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m */; };
+		4B1A60F02388477E004163F6 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DFA2368C19C00DB2915 /* README.md */; };
+		4B1A60F12388477E004163F6 /* s3-header.h in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DF82368C19C00DB2915 /* s3-header.h */; };
+		4B1A60F62388477E004163F6 /* PushNotificationPayload.apns in Sources */ = {isa = PBXBuildFile; fileRef = 4B588DDD2368C08E00DB2915 /* PushNotificationPayload.apns */; };
 		4B588DC12368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4B588DC72368C08C00DB2915 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DC52368C08C00DB2915 /* Interface.storyboard */; };
 		4B588DC92368C08D00DB2915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B588DC82368C08D00DB2915 /* Assets.xcassets */; };
@@ -147,7 +234,7 @@
 
 /* Begin PBXFileReference section */
 		4B1A609423871400004163F6 /* mediUploadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediUploadable.swift; sourceTree = "<group>"; };
-		4B1A609A23874426004163F6 /* mediUploadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = mediUploadable.swift; path = "AppConnect-WatchOS/mediUploadable.swift"; sourceTree = "<group>"; };
+		4B1A609A23874426004163F6 /* MediUploadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MediUploadable.swift; path = "AppConnect-WatchOS/MediUploadable.swift"; sourceTree = "<group>"; };
 		4B588DBC2368C08C00DB2915 /* watch-lib-tester-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-lib-tester-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B588DC02368C08C00DB2915 /* watch-lib-tester-2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-lib-tester-2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B588DC62368C08C00DB2915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -271,7 +358,7 @@
 		4B588DB52368C08C00DB2915 = {
 			isa = PBXGroup;
 			children = (
-				4B1A609A23874426004163F6 /* mediUploadable.swift */,
+				4B1A609A23874426004163F6 /* MediUploadable.swift */,
 				4B588DC42368C08C00DB2915 /* watch-lib-tester-2 WatchKit App */,
 				4B588DD32368C08E00DB2915 /* watch-lib-tester-2 WatchKit Extension */,
 				4B588E99236A309400DB2915 /* Tests */,
@@ -566,7 +653,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B1A609B23874426004163F6 /* mediUploadable.swift in Sources */,
+				4B1A609B23874426004163F6 /* MediUploadable.swift in Sources */,
 				4B588E522368C1A200DB2915 /* AWSCancellationTokenRegistration.m in Sources */,
 				4B588E7E2368C1A200DB2915 /* AWSModel.m in Sources */,
 				4B588DD92368C08E00DB2915 /* NotificationController.swift in Sources */,
@@ -659,6 +746,93 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1A609C2388477E004163F6 /* MediUploadable.swift in Sources */,
+				4B1A609D2388477E004163F6 /* aws-sdk-ios in Sources */,
+				4B1A609E2388477E004163F6 /* AWSBolts.m in Sources */,
+				4B1A609F2388477E004163F6 /* AWSCancellationToken.m in Sources */,
+				4B1A60A02388477E004163F6 /* AWSCancellationTokenRegistration.m in Sources */,
+				4B1A60A12388477E004163F6 /* AWSCancellationTokenSource.m in Sources */,
+				4B1A60A22388477E004163F6 /* AWSCategory.m in Sources */,
+				4B1A60A32388477E004163F6 /* AWSClientContext.m in Sources */,
+				4B1A60A42388477E004163F6 /* AWSCognitoIdentity+Fabric.m in Sources */,
+				4B1A60A52388477E004163F6 /* AWSCognitoIdentityModel.m in Sources */,
+				4B1A60A62388477E004163F6 /* AWSCognitoIdentityResources.m in Sources */,
+				4B1A60A72388477E004163F6 /* AWSCognitoIdentityService.m in Sources */,
+				4B1A60A82388477E004163F6 /* AWSCredentialsProvider.m in Sources */,
+				4B1A60A92388477E004163F6 /* AWSDDAbstractDatabaseLogger.m in Sources */,
+				4B1A60AA2388477E004163F6 /* AWSDDASLLogCapture.m in Sources */,
+				4B1A60AB2388477E004163F6 /* AWSDDASLLogger.m in Sources */,
+				4B1A60AC2388477E004163F6 /* AWSDDFileLogger.m in Sources */,
+				4B1A60AD2388477E004163F6 /* AWSDDLog.m in Sources */,
+				4B1A60AE2388477E004163F6 /* AWSDDMultiFormatter.m in Sources */,
+				4B1A60AF2388477E004163F6 /* AWSDDOSLogger.m in Sources */,
+				4B1A60B02388477E004163F6 /* AWSDDTTYLogger.m in Sources */,
+				4B1A60B12388477E004163F6 /* AWSExecutor.m in Sources */,
+				4B1A60B22388477E004163F6 /* AWSEXTRuntimeExtensions.m in Sources */,
+				4B1A60B32388477E004163F6 /* AWSEXTScope.m in Sources */,
+				4B1A60B42388477E004163F6 /* AWSFMDatabase.m in Sources */,
+				4B1A60B52388477E004163F6 /* AWSFMDatabaseAdditions.m in Sources */,
+				4B1A60B62388477E004163F6 /* AWSFMDatabasePool.m in Sources */,
+				4B1A60B72388477E004163F6 /* AWSFMDatabaseQueue.m in Sources */,
+				4B1A60B82388477E004163F6 /* AWSFMDB+AWSHelpers.m in Sources */,
+				4B1A60B92388477E004163F6 /* AWSFMResultSet.m in Sources */,
+				4B1A60BA2388477E004163F6 /* AWSGZIP.m in Sources */,
+				4B1A60BB2388477E004163F6 /* AWSIdentityProvider.m in Sources */,
+				4B1A60BC2388477E004163F6 /* AWSInfo.m in Sources */,
+				4B1A60BD2388477E004163F6 /* AWSLogging.m in Sources */,
+				4B1A60BE2388477E004163F6 /* AWSModel.m in Sources */,
+				4B1A60BF2388477E004163F6 /* AWSMTLJSONAdapter.m in Sources */,
+				4B1A60C02388477E004163F6 /* AWSMTLManagedObjectAdapter.m in Sources */,
+				4B1A60C12388477E004163F6 /* AWSMTLModel.m in Sources */,
+				4B1A60C22388477E004163F6 /* AWSMTLModel+NSCoding.m in Sources */,
+				4B1A60C32388477E004163F6 /* AWSMTLReflection.m in Sources */,
+				4B1A60C42388477E004163F6 /* AWSMTLValueTransformer.m in Sources */,
+				4B1A60C52388477E004163F6 /* AWSNetworking.m in Sources */,
+				4B1A60C62388477E004163F6 /* AWSNetworkingHelpers.m in Sources */,
+				4B1A60C72388477E004163F6 /* AWSS3Model.m in Sources */,
+				4B1A60C82388477E004163F6 /* AWSS3PreSignedURL.m in Sources */,
+				4B1A60C92388477E004163F6 /* AWSS3RequestRetryHandler.m in Sources */,
+				4B1A60CA2388477E004163F6 /* AWSS3Resources.m in Sources */,
+				4B1A60CB2388477E004163F6 /* AWSS3Serializer.m in Sources */,
+				4B1A60CC2388477E004163F6 /* AWSS3Service.m in Sources */,
+				4B1A60CD2388477E004163F6 /* AWSS3TransferManager.m in Sources */,
+				4B1A60CE2388477E004163F6 /* AWSS3TransferUtility.m in Sources */,
+				4B1A60CF2388477E004163F6 /* AWSS3TransferUtility+HeaderHelper.m in Sources */,
+				4B1A60D02388477E004163F6 /* AWSS3TransferUtility+Validation.m in Sources */,
+				4B1A60D12388477E004163F6 /* AWSS3TransferUtilityDatabaseHelper.m in Sources */,
+				4B1A60D22388477E004163F6 /* AWSS3TransferUtilityTasks.m in Sources */,
+				4B1A60D32388477E004163F6 /* AWSSerialization.m in Sources */,
+				4B1A60D42388477E004163F6 /* AWSService.m in Sources */,
+				4B1A60D52388477E004163F6 /* AWSSignature.m in Sources */,
+				4B1A60D62388477E004163F6 /* AWSSTSModel.m in Sources */,
+				4B1A60D72388477E004163F6 /* AWSSTSResources.m in Sources */,
+				4B1A60D82388477E004163F6 /* AWSSTSService.m in Sources */,
+				4B1A60D92388477E004163F6 /* AWSSynchronizedMutableDictionary.m in Sources */,
+				4B1A60DA2388477E004163F6 /* AWSTask.m in Sources */,
+				4B1A60DB2388477E004163F6 /* AWSTaskCompletionSource.m in Sources */,
+				4B1A60DC2388477E004163F6 /* AWSTMCache.m in Sources */,
+				4B1A60DD2388477E004163F6 /* AWSTMDiskCache.m in Sources */,
+				4B1A60DE2388477E004163F6 /* AWSTMMemoryCache.m in Sources */,
+				4B1A60DF2388477E004163F6 /* AWSUICKeyChainStore.m in Sources */,
+				4B1A60E02388477E004163F6 /* AWSURLRequestRetryHandler.m in Sources */,
+				4B1A60E12388477E004163F6 /* AWSURLRequestSerialization.m in Sources */,
+				4B1A60E22388477E004163F6 /* AWSURLResponseSerialization.m in Sources */,
+				4B1A60E32388477E004163F6 /* AWSURLSessionManager.m in Sources */,
+				4B1A60E42388477E004163F6 /* AWSValidation.m in Sources */,
+				4B1A60E52388477E004163F6 /* AWSXMLDictionary.m in Sources */,
+				4B1A60E62388477E004163F6 /* AWSXMLWriter.m in Sources */,
+				4B1A60E72388477E004163F6 /* EproEndpoint.swift in Sources */,
+				4B1A60E82388477E004163F6 /* logger.swift in Sources */,
+				4B1A60E92388477E004163F6 /* MedistranoStage.swift in Sources */,
+				4B1A60EA2388477E004163F6 /* NSArray+AWSMTLManipulationAdditions.m in Sources */,
+				4B1A60EB2388477E004163F6 /* NSDictionary+AWSMTLManipulationAdditions.m in Sources */,
+				4B1A60EC2388477E004163F6 /* NSError+AWSMTLModelException.m in Sources */,
+				4B1A60ED2388477E004163F6 /* NSObject+AWSMTLComparisonAdditions.m in Sources */,
+				4B1A60EE2388477E004163F6 /* NSValueTransformer+AWSMTLInversionAdditions.m in Sources */,
+				4B1A60EF2388477E004163F6 /* NSValueTransformer+AWSMTLPredefinedTransformerAdditions.m in Sources */,
+				4B1A60F02388477E004163F6 /* README.md in Sources */,
+				4B1A60F12388477E004163F6 /* s3-header.h in Sources */,
+				4B1A60F62388477E004163F6 /* PushNotificationPayload.apns in Sources */,
 				4B588E9B236A309400DB2915 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

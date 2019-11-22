@@ -21,6 +21,13 @@ class Tests: XCTestCase {
     func testExample() {
         XCTAssertEqual(95, 95, "Score computed from guess is wrong")
     }
+    
+    func testStringCheck() {
+        let testString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.-_"
+        let result =  EproEndpoint.fileNameValid("test")
+        XCTAssertEqual(95, 95, "Score computed from guess is wrong")
+    }
+
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
